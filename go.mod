@@ -1,4 +1,4 @@
-module github.com/microcosm-cc/bluemonday
+module github.com/Unheilbar/bluemonday
 
 go 1.19
 

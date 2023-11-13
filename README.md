@@ -1,4 +1,4 @@
-# bluemonday [![GoDoc](https://godoc.org/github.com/microcosm-cc/bluemonday?status.png)](https://godoc.org/github.com/microcosm-cc/bluemonday) [![Sourcegraph](https://sourcegraph.com/github.com/microcosm-cc/bluemonday/-/badge.svg)](https://sourcegraph.com/github.com/microcosm-cc/bluemonday?badge)
+# bluemonday [![GoDoc](https://godoc.org/github.com/Unheilbar/bluemonday?status.png)](https://godoc.org/github.com/Unheilbar/bluemonday) [![Sourcegraph](https://sourcegraph.com/github.com/Unheilbar/bluemonday/-/badge.svg)](https://sourcegraph.com/github.com/Unheilbar/bluemonday?badge)
 
 bluemonday is a HTML sanitizer implemented in Go. It is fast and highly configurable.
 
@@ -70,13 +70,13 @@ We support Go 1.1 but Travis no longer tests against it.
 
 We are using bluemonday in production having migrated from the widely used and heavily field tested OWASP Java HTML Sanitizer.
 
-We are passing our extensive test suite (including AntiSamy tests as well as tests for any issues raised). Check for any [unresolved issues](https://github.com/microcosm-cc/bluemonday/issues?page=1&state=open) to see whether anything may be a blocker for you.
+We are passing our extensive test suite (including AntiSamy tests as well as tests for any issues raised). Check for any [unresolved issues](https://github.com/Unheilbar/bluemonday/issues?page=1&state=open) to see whether anything may be a blocker for you.
 
 We invite pull requests and issues to help us ensure we are offering comprehensive protection against various attacks via user generated content.
 
 ## Usage
 
-Install in your `${GOPATH}` using `go get -u github.com/microcosm-cc/bluemonday`
+Install in your `${GOPATH}` using `go get -u github.com/Unheilbar/bluemonday`
 
 Then call it:
 ```go
@@ -85,7 +85,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/microcosm-cc/bluemonday"
+	"github.com/Unheilbar/bluemonday"
 )
 
 func main() {
@@ -120,7 +120,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/microcosm-cc/bluemonday"
+	"github.com/Unheilbar/bluemonday"
 )
 
 func main() {
